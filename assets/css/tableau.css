@@ -1,0 +1,197 @@
+    /* Votre style personnalisé ici */
+
+.container {
+    margin-top: 1rem;
+    margin-bottom: 5px;
+    border-radius: 10px; /* Arrondir les coins */
+    background-color: #ffffff; /* Couleur de fond légère */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajouter une ombre pour l'effet de profondeur */
+    max-width: 600px; /* Limiter la largeur */
+    text-align: center; /* Centrer le contenu */
+    border-radius: 20px;
+    color: #ffffff;
+
+}
+
+/* Style pour l'en-tête de la carte */
+.card-header {
+    background-color: #3777b0; /* Couleur de fond bleue */
+    color: white; /* Texte blanc */
+    padding: 10px;
+    border-radius: 10px 10px 0 0; /* Arrondir seulement les coins supérieurs */
+}
+
+/* Style pour le titre h1 */
+.card-header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f2f2f2; /* Couleur de fond des lignes impaires */
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: 1px solid #ddd;
+        vertical-align: middle; /* Centrage vertical du contenu */
+    }
+
+    th {
+        background-color: #3777b0;
+        color: white;
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+        padding: 15px; /* Espacement interne */
+    }
+
+    a.btn {
+        padding: 10px 20px;
+        border-radius: 20px; /* Bordure arrondie des boutons */
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    a.btn-primary {
+        background-color: #3777b0;
+        border: none;
+    }
+    .btn .btn-primary {
+        background-color: #3777b0;
+        border: none;
+    }
+    a.btn-danger {
+        background-color: #dc3545;
+        border: none;
+    }
+
+    .card-header {
+        background-color: #3777b0;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+        padding: 15px;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .card-body {
+        border-radius: 0 0 10px 10px;
+        padding: 25px;
+    }
+
+    .data_table {
+        overflow-x: auto; /* Ajoute un défilement horizontal si nécessaire */
+    }
+
+            /* (Insérez le code CSS personnalisé ci-dessus ici) */
+
+            /* Style pour le tableau */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border: 1px solid #dee2e6;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+    text-align: center; /* Centrer le texte */
+}
+
+.table thead th {
+    background-color: #3777b0;
+    color: white;
+    font-size: 18px;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.table tbody tr {
+    font-size: 16px;
+}
+
+/* Style pour les liens dans les cellules du tableau */
+.table .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.table .btn-warning {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.table .btn-primary {
+    background-color: #3777b0;
+    color: #fff;
+}
+
+.table .btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.table .btn:hover {
+    color: white;
+}
+
+/* Pagination */
+.pagination .page-item.active .page-link {
+    background-color: #3777b0;
+    border-color: #3777b0;
+}
+
+.pagination .page-link {
+    color: #3777b0;
+}
+
+.pagination .page-link:hover {
+    color: #3777b0;
+}
+
+/* Style pour le formulaire de recherche */
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-container .box {
+    display: inline-block;
+    position: relative;
+    width: 1100px;
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-container input[type="text"]:focus {
+    border-color:#3777b0;
+}
+
+.search-container .fa-search {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #3777b0;
+}
